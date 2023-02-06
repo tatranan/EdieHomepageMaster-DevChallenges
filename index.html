@@ -9,8 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
           rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
     <title>Edie Homepage Master</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
           integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
@@ -23,28 +24,34 @@
         <div class="main-logo">
             Edie
         </div>
+        <div class="nav-mobile-icons nav-mobile-hambuger" id="nav-mobile-hambuger">
+            <span class="material-symbols-outlined open">menu</span>
+        </div>
+        <div class="nav-mobile-icons nav-mobile-close" id="nav-mobile-close">
+            <span class="material-symbols-outlined close">close</span>
+        </div>
         <div class="nav">
             <div class="nav-items">
                 <div class="nav-item">
-                    <a href="" class="nav-link">Home</a>
+                    <a href="#home" class="nav-link">Home</a>
                 </div>
                 <div class="nav-item">
-                    <a href="" class="nav-link">Services</a>
+                    <a href="#services" class="nav-link">Services</a>
                 </div>
                 <div class="nav-item">
-                    <a href="" class="nav-link">Our Works</a>
+                    <a href="#works" class="nav-link">Our Works</a>
                 </div>
                 <div class="nav-item">
-                    <a href="" class="nav-link">Clients</a>
+                    <a href="#clients" class="nav-link">Clients</a>
                 </div>
                 <div class="nav-item">
-                    <a href="" class="nav-link">Contact</a>
+                    <a href="#contacts" class="nav-link">Contact</a>
                 </div>
             </div>
         </div>
     </div>
     <div class="main-content">
-        <div class="introduction">
+        <div class="introduction" id="home">
             <div class="container-sm-wrap">
                 <div class="normal-text base-color introduction-text-sm">
                     Unhappy with your website?
@@ -77,7 +84,7 @@
                 </form>
             </div>
         </div>
-        <div class="services">
+        <div class="services" id="services">
             <div class="lg-title "><h3 class="service-title">We offer high demand services</h3></div>
             <div class="card-wrap">
                 <div class="card">
@@ -116,9 +123,7 @@
                 </div>
                 <div class="card">
                     <div class="card-icon bg--third">
-                        <span class="material-icons">
-storage
-</span>
+                        <span class="material-icons">storage</span>
                     </div>
                     <div class="card-title">
                         <h4>UI/UX Design</h4>
@@ -133,7 +138,7 @@ storage
                 </div>
             </div>
         </div>
-        <div class="our-works">
+        <div class="our-works" id="works">
             <div class="lg-title">
                 <h3 class="our-works-title">Good design means good business</h3>
             </div>
@@ -202,7 +207,7 @@ storage
                 </div>
             </div>
         </div>
-        <div class="clients">
+        <div class="clients" id="clients">
             <div class="clients-feedback">
                 “Fast and outstanding resutls. Edie understands their customer’s needs. They have a young and talented
                 team.”
@@ -220,7 +225,7 @@ storage
     </div>
 
 </div>
-<div class="footer">
+<div class="footer" id="contacts">
     <div class="container">
         <div class="footer-content">
             <div class="footer-items">
@@ -251,17 +256,17 @@ storage
                         <div class="footer-social-items">
                             <div class="footer-social-item">
                                 <a href="">
-                                <img src="./asset/images/instagram.svg" alt="">
+                                    <img src="./asset/images/instagram.svg" alt="">
                                 </a>
                             </div>
                             <div class="footer-social-item">
                                 <a href="">
-                                <img src="./asset/images/linkedin.svg" alt="">
+                                    <img src="./asset/images/linkedin.svg" alt="">
                                 </a>
                             </div>
                             <div class="footer-social-item">
                                 <a href="">
-                                <img src="./asset/images/twitter.svg" alt="">
+                                    <img src="./asset/images/twitter.svg" alt="">
                                 </a>
                             </div>
                         </div>
@@ -283,5 +288,6 @@ storage
         <div class="copy-right">created by tatranan - devChallenges.io</div>
     </div>
 </div>
+<script src="asset/js/index.js"></script>
 </body>
 </html>
