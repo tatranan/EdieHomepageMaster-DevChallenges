@@ -535,6 +535,445 @@ html {
     color: var(--color-gray-6);
 }
 
+@media only screen and (max-width: 959px) {
+    .container {
+        padding: 10px;
+        width: 959px;
+    }
+    
+    .footer {
+        width: 959px;
+        margin-top: 10rem;
+    }
+
+   
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+        width: 768px;
+    }
+
+    .header {
+        padding-bottom: 0;
+        width: 100%;
+    }
+
+    .nav {
+        display: none;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.9);
+        z-index: 100;
+        -webkit-animation: expand 1s;
+        animation: expand 1s;
+    }
+
+    .nav-items {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        flex-direction: column;
+    }
+
+    .nav-link {
+        color: var(--color-white);
+    }
+
+    .nav-mobile-hambuger {
+        display: block;
+    }
+
+    .nav-mobile-close {
+        z-index: 110;
+        display: none;
+        position: fixed;
+        top: 3rem;
+        right: 3rem;
+    }
+
+    .nav-mobile-close span {
+        color: var(--color-white);
+    }
+
+    .main-content {
+        margin-top: 5rem;
+    }
+
+    .container-sm-wrap {
+        width: 90%;
+        margin: 0 2rem;
+    }
+
+    .introduction-text-sm {
+        font-size: 1.2rem;
+    }
+
+    .introduction-title-wrap {
+        font-size: 2rem;
+        width: 100%;
+    }
+
+    .introduction-image {
+        max-width: 100%;
+        height: 15.5rem;
+        margin-top: 1.5rem;
+    }
+
+    .introduction-image img {
+        object-fit: fill;
+        height: 100%;
+    }
+
+    .contact {
+        margin-top: 2.2rem;
+    }
+
+    .contact-content-wrap {
+        width: 90%;
+    }
+
+    .contact-text {
+        margin-top: 3rem;
+        margin-right: 0;
+    }
+
+    .contact-form {
+        margin-top: 3rem;
+    }
+
+    .services {
+        margin-top: 10rem;
+    }
+
+    .service-title {
+        margin: 0 3.4rem;
+        width: 70%;
+    }
+
+    .card-wrap {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .our-works {
+        width: 100%;
+        margin: 0;
+        margin-top: 10rem;
+    }
+
+    .our-works-title {
+        width: 80%;
+        margin-left: 3.5rem;
+    }
+
+    .card-secondary-wrap-row {
+        flex-direction: column;
+    }
+
+    .card-secondary-under {
+        margin-top: 3.6rem;
+    }
+
+    .see-more {
+        position: relative;
+        left: 0;
+        margin-top: 3.6rem;
+    }
+
+    .see-more a {
+        justify-content: flex-start;
+    }
+
+    .team {
+        margin: 10rem 0 0 0;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .team-info {
+        width: 100%;
+    }
+
+    .team-info-label {
+        font-size: var(--text-md);
+    }
+
+    .team-info-title {
+        font-size: var(--text-xl);
+    }
+
+    .team-info-content {
+        font-size: 1.6rem
+    }
+
+    .person-1 img {
+        width: 34rem;
+        height: 34rem;
+    }
+
+    .person-2 img {
+        width: 36rem;
+        height: 36rem;
+    }
+
+    .person-3 img {
+        width: 37rem;
+        height: 37rem;
+    }
+
+    .clients {
+        margin-top: 10rem;
+    }
+
+    .clients-feedback {
+        width: 100%;
+    }
+
+    .clients-info {
+        margin-top: 3rem;
+    }
+
+    .client-name {
+        font-size: var(--text-lg);
+    }
+
+    .client-role {
+        font-size: var(--text-md);
+    }
+
+    .footer {
+        width: 768px;
+        margin-top: 10rem;
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+}
+
+
+@media only screen and (max-width: 568px) {
+    .container {
+        padding: 10px;
+        width: 568px;
+    }
+
+    .header {
+        padding-bottom: 0;
+        width: 100%;
+    }
+
+    .nav {
+        display: none;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.9);
+        z-index: 100;
+        -webkit-animation: expand 1s;
+        animation: expand 1s;
+    }
+
+    .nav-items {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        flex-direction: column;
+    }
+
+    .nav-link {
+        color: var(--color-white);
+    }
+
+    .nav-mobile-hambuger {
+        display: block;
+    }
+
+    .nav-mobile-close {
+        z-index: 110;
+        display: none;
+        position: fixed;
+        top: 3rem;
+        right: 3rem;
+    }
+
+    .nav-mobile-close span {
+        color: var(--color-white);
+    }
+
+    .main-content {
+        margin-top: 5rem;
+    }
+
+    .container-sm-wrap {
+        width: 90%;
+        margin: 0 2rem;
+    }
+
+    .introduction-text-sm {
+        font-size: 1.2rem;
+    }
+
+    .introduction-title-wrap {
+        font-size: 2rem;
+        width: 100%;
+    }
+
+    .introduction-image {
+        max-width: 100%;
+        height: 15.5rem;
+        margin-top: 1.5rem;
+    }
+
+    .introduction-image img {
+        object-fit: fill;
+        height: 100%;
+    }
+
+    .contact {
+        margin-top: 2.2rem;
+    }
+
+    .contact-content-wrap {
+        width: 90%;
+    }
+
+    .contact-text {
+        margin-top: 3rem;
+        margin-right: 0;
+    }
+
+    .contact-form {
+        margin-top: 3rem;
+    }
+
+    .services {
+        margin-top: 10rem;
+    }
+
+    .service-title {
+        margin: 0 3.4rem;
+        width: 70%;
+    }
+
+    .card-wrap {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .our-works {
+        width: 100%;
+        margin: 0;
+        margin-top: 10rem;
+    }
+
+    .our-works-title {
+        width: 80%;
+        margin-left: 3.5rem;
+    }
+
+    .card-secondary-wrap-row {
+        flex-direction: column;
+    }
+
+    .card-secondary-under {
+        margin-top: 3.6rem;
+    }
+
+    .see-more {
+        position: relative;
+        left: 0;
+        margin-top: 3.6rem;
+    }
+
+    .see-more a {
+        justify-content: flex-start;
+    }
+
+    .team {
+        margin: 10rem 0 0 0;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .team-info {
+        width: 100%;
+    }
+
+    .team-info-label {
+        font-size: var(--text-md);
+    }
+
+    .team-info-title {
+        font-size: var(--text-xl);
+    }
+
+    .team-info-content {
+        font-size: 1.6rem
+    }
+
+    .person-1 img {
+        width: 24rem;
+        height: 24rem;
+    }
+
+    .person-2 img {
+        width: 26rem;
+        height: 26rem;
+    }
+
+    .person-3 img {
+        width: 27rem;
+        height: 27rem;
+    }
+
+    .clients {
+        margin-top: 10rem;
+    }
+
+    .clients-feedback {
+        width: 100%;
+    }
+
+    .clients-info {
+        margin-top: 3rem;
+    }
+
+    .client-name {
+        font-size: var(--text-lg);
+    }
+
+    .client-role {
+        font-size: var(--text-md);
+    }
+
+    .footer {
+        width: 568px;
+        margin-top: 10rem;
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+}
+
 @media only screen and (max-width: 375px) {
     .container {
         padding: 10px;
@@ -738,6 +1177,7 @@ html {
     }
 
     .footer {
+        width: 375px;
         margin-top: 10rem;
     }
 
