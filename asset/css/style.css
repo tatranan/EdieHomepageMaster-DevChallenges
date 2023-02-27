@@ -535,7 +535,7 @@ html {
     color: var(--color-gray-6);
 }
 
-@media screen and (max-width: 375px) {
+@media only screen and (max-width: 375px) {
     .container {
         padding: 10px;
         width: 375px;
@@ -543,6 +543,7 @@ html {
 
     .header {
         padding-bottom: 0;
+        width: 100%;
     }
 
     .nav {

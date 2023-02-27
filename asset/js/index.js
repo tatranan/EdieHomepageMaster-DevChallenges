@@ -29,9 +29,7 @@ window.addEventListener('load', () => {
     window.addEventListener('resize', (event) => {
         let height = window.innerHeight;
         let width = window.innerWidth;
-        console.log(height, width);
         if (width > 375) {
-            console.log(1);
             nav.style.display = "block";
             buttonNav.style.display = 'none';
         } else {
@@ -40,4 +38,5 @@ window.addEventListener('load', () => {
         }
     })
 })
+
 
